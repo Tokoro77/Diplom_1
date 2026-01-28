@@ -6,8 +6,9 @@
 
 # Maven (кроме нужных нам отчетов)
 target/*
-!target/site/jacoco/jacoco-resources/
-!target/site/jacoco/index.html
+!target/site/
+!target/site/jacoco/
+!target/site/jacoco/**
 
 # Системные файлы
 .DS_Store
